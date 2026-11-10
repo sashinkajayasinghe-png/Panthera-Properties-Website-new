@@ -10,27 +10,27 @@ const PILLARS = [
   {
     title: "Personalised property discovery",
     body: "We begin with how you want to live, not with a list. Your brief shapes a focused shortlist — and we keep refining it as your priorities become clearer.",
-    image: unsplash("1600607687939-ce8a6c25118c", 1600),
+    image: "/why-panthera/1.webp",
   },
   {
     title: "Local market knowledge",
     body: "Colombo is a city of micro-markets. We help you understand the nuances between suburbs, buildings and streets — and what they mean for value.",
-    image: unsplash("1534237710431-e2fc698436d0", 1600),
+    image: "/why-panthera/2.webp",
   },
   {
     title: "Professional property marketing",
     body: "For sellers, we present homes with care: accurate descriptions, clear pricing and targeted introductions to buyers who are a genuine fit.",
-    image: unsplash("1613490493576-7fde63acd811", 1600),
+    image: "/why-panthera/3.webp",
   },
   {
     title: "Discreet client service",
     body: "Many of our clients value privacy. Enquiries, viewings and negotiations are handled quietly, with information shared only as you choose.",
-    image: unsplash("1600585154526-990dced4db0d", 1600),
+    image: "/why-panthera/4.webp",
   },
   {
     title: "End-to-end transaction assistance",
     body: "From first viewing to handover, we coordinate the details — documentation, due diligence with your lawyers, and timelines — so nothing is left to chance.",
-    image: unsplash("1600573472550-8090b5e0745e", 1600),
+    image: "/why-panthera/5.webp",
   },
 ];
 
