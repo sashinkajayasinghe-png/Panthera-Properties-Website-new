@@ -1,0 +1,17 @@
+modules = ["nodejs-20", "postgresql-16"]
+run = "npm run dev"
+
+[nix]
+channel = "stable-24_05"
+
+[[ports]]
+localPort = 3000
+externalPort = 80
+
+[deployment]
+deploymentTarget = "autoscale"
+build = ["sh", "-c", "npm ci && npx prisma db push && npm run build"]
+run = ["sh", "-c", "npm run start"]
+
+[env]
+NEXT_TELEMETRY_DISABLED = "1"
