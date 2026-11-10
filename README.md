@@ -94,3 +94,4 @@ Uploaded photos are only rotated, resized, compressed and stripped of metadata (
 | `npm run admin:remove -- email` | Remove an admin login (never the last one) |
 | `npm run neighborhoods:sync-images` | Point neighbourhoods at `public/neighborhoods/<slug>.webp` |
 | `npm run db:seed` | Re-create neighbourhoods and sample listings |
+Panthera Properties deployment setup complete.
