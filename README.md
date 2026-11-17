@@ -2,7 +2,7 @@
 
 Luxury real estate website for Panthera Properties, Colombo, Sri Lanka.
 
-Next.js 15 (App Router, TypeScript) · Tailwind CSS 4 · Motion · GSAP · Lenis · PostgreSQL + Prisma · Leaflet/OpenStreetMap · optional Cloudinary, SMTP and Claude.
+Next.js 15 (App Router, TypeScript) · Tailwind CSS 4 · Motion · GSAP · Lenis · PostgreSQL + Prisma · optional Cloudinary, SMTP and Claude.
 
 ## What's included
 
@@ -94,4 +94,3 @@ Uploaded photos are only rotated, resized, compressed and stripped of metadata (
 | `npm run admin:remove -- email` | Remove an admin login (never the last one) |
 | `npm run neighborhoods:sync-images` | Point neighbourhoods at `public/neighborhoods/<slug>.webp` |
 | `npm run db:seed` | Re-create neighbourhoods and sample listings |
-Panthera Properties deployment setup complete.
