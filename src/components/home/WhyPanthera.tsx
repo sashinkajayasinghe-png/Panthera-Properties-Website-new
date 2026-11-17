@@ -9,7 +9,7 @@ const PILLARS = [
   {
     title: "Personalised property discovery",
     body: "We begin with how you want to live, not with a list. Your brief shapes a focused shortlist — and we keep refining it as your priorities become clearer.",
-    image: "/why-panthera/1.webp",,
+    image: "/why-panthera/1.webp",
   },
   {
     title: "Local market knowledge",
