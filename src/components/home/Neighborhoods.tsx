@@ -67,7 +67,13 @@ export function NeighborhoodShowcase({ hoods }: { hoods: HoodLite[] }) {
                     exit={{ opacity: 0.4 }}
                     transition={{ duration: 1, ease: [0.76, 0, 0.24, 1] }}
                   >
-                    <Image src={current.imageUrl} alt="" fill sizes="40vw" className="object-cover" />
+                    <Image
+  src={`/neighborhoods/hover/${current.slug}.webp`}
+  alt=""
+  fill
+  sizes="40vw"
+  className="object-cover"
+/>
                   </motion.div>
                 ) : null}
               </AnimatePresence>
